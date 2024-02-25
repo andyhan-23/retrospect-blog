@@ -1,0 +1,31 @@
+#detail_container {
+  max-width: 700px;
+  box-sizing: border-box;
+  padding: 0 28px;
+  margin: 0 auto;
+}
+
+#detail_inner_container {
+  width: 100%;
+}
+
+#detail_title_container {
+  margin-top: 20px;
+}
+
+#detail_title_container > h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#detail_created_container {
+  margin-top: 20px;
+}
+
+#detail_created_container p {
+  color: #8b95a1;
+}
+
+#detail_content_container {
+  margin-top: 54px;
+}
