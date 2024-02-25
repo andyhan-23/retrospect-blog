@@ -1,4 +1,5 @@
 import headerComponent from "./views/components/header";
+import errorComponent from "./views/components/error";
 
 (() => {
   const appTemplate = `
@@ -10,3 +11,4 @@ import headerComponent from "./views/components/header";
   app.innerHTML = appTemplate;
 })();
 headerComponent();
+errorComponent();
